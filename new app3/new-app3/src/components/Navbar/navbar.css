@@ -1,0 +1,43 @@
+.navbar{
+    background-color: rgb(10, 145, 249);
+    width: 100%;
+
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    float: right;
+    padding-right: 20px;
+    font-size: 30px;
+    /* background-color: rgb(185, 149, 149); */
+
+}
+
+.icon_cart{
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+    padding: 0 20px;
+
+}
+
+
+.icon_cart{
+    border-radius: 10px;
+    margin: 6px;
+    color: black;
+    animation: blink 3s alternate;
+}
+
+@keyframes blink {
+    from{
+    transform: translateY(-10vh);
+    }
+
+    to{
+    transform: translateY(0);
+    }
+}
+

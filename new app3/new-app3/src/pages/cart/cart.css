@@ -1,0 +1,12 @@
+.cardItem img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    height: 40vh;
+    padding-top: 10vh;
+    text-align: center;
+    border-radius: 10px;
+
+}

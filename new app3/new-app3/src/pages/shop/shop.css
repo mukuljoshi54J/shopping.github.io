@@ -1,0 +1,38 @@
+.shop{
+    padding-top: 10vh;
+}
+
+.shop h1{
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+ 
+    row-gap: 20px;
+
+    justify-content: space-evenly;
+    /* background-color: red; */
+}
+
+
+
+
+
+/* product ka h  */
+
+.product{
+padding: 10px;
+    background-color: rgb(204, 192, 192);
+    border-radius: 10px;
+    
+}
+
+.product img{
+    width: 40vh;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
